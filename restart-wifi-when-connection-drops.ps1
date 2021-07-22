@@ -1,3 +1,6 @@
+# Restarting the adapter requires admin rights
+#Requires -RunAsAdministrator
+
 # Tests the connection to the target IP address and restarts the network adapter, if the connection is bad
 
 $targetName = '8.8.8.8'
